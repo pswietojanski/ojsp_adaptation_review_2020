@@ -1,0 +1,5 @@
+bokeh
+pandas==0.25.3
+gspread
+oauth2client
+PyOpenSSL
