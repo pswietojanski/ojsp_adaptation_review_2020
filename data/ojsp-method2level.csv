@@ -1,0 +1,35 @@
+Method,Level,FamilyBasic,FullName,MetBibentryId,Notes
+DiffPooling,model,Activation,Differentiable Pooling,,differentialbe pooling
+dvectors,embedding,NNEmb,,,
+Finetune,model,Finetune,,,all model paramters get updated
+fMLLR,feature,Linear Transform,feature-space Maximum Likelihood Linear Transform,,
+ivectors,embedding,GMMEmb,,,
+LHN,model,Linear Transform,Linear Hidden Network,,
+LHUC,model,Activation,Learning Hidden Units Contributions,,
+LIN,feature,Linear Transform,Linear Input Network,,linear input transform
+LON,model,Linear Transform,Linear Output Network,,linear output transform
+SAT-DNN,embedding,NNTransformEmb,,,
+SpkCodes,embedding,NNEmb,Speaker Codes,,
+SVD,model,Finetune,Singular Value Decomposition,,
+VTLN,feature,Linear Transform,,,
+xvectors,embedding,NNEmb,,,
+FLA,model,Linear Transform,Factorised Layer Adaptation,,constrained diagonal/full adaptation / factorised layer adaptation
+LPT,model,Finetune,Linear Projection Transform,,linear projection transform (only for LSTM like models)
+CNNEmb,embedding,NNEmb,,,
+DNNEmb,embedding,NNEmb,,,
+f-LHUC,embedding,NNEmb,Feature-space LHUC,,"(""fast""-LHUC) LHUC estimated with an external network"
+SNE,embedding,NNEmb,Summary Network Embeddins,,Summary network embeddings
+memory,embedding,NNTransformEmb,,,
+CMN,feature,NotSure,,,
+BSV,embedding,NNEmb,Bottleneck Speaker Vector,,Bottleneck Speaker Vector (MT = with monophone targets as multitask in addition to speaker targets)
+OBN,embedding,NNEmb,Online Batch Normalisation,,
+pActivation,model,Activation,,,parameterised activation function
+FOL,model,Finetune,Finetune Output Layer,,Finetune Output Layer
+FHL,model,Finetune,Finetune Hidden Layer,,Finetune Hidden Layer
+FIL,model,Finetune,Finetune Input Layer,,Finetune Input Layer
+GMMD,embedding,GMMEmb,GMM-Derived Features,,
+RNNEmb,embedding,NNEmb,,,
+SincNet,model,Finetune,,,
+VTLP,data,DataAug,VTL perturbation,,
+SFM,data,DataAug,stochasitc feature mapping,,
+TTS,data,DataAug,text-to-speech,,
